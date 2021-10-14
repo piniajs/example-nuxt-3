@@ -11,7 +11,6 @@
     <input type="text" v-model="counter.myRef" />
     <br />
     <input type="number" v-model="counter.n" />
-    <NuxtWelcome />
   </div>
 </template>
 
