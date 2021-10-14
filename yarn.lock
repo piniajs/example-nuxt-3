@@ -481,10 +481,10 @@
     webpack-virtual-modules "^0.4.3"
     webpackbar "^5.0.0-3"
 
-"@pinia/nuxt@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.0.4.tgz#9ae82d53df6fb183cd903e12560e3b523985d299"
-  integrity sha512-ExQdTFWWAA+ruAoY54pjCEQDPivmPKdukjn8pmI36xZx/smoYTxeLsEA/oUvcXHTduxNblVc5T0009RYYFmORg==
+"@pinia/nuxt@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.0.6.tgz#0fee6ba5980dd136c57d43f0711de6b3f981d461"
+  integrity sha512-U9b1kSkMPMjrYBxQge+baEsN5PU1CUE+wPPLDr5AQ32Er3FfbCe+898k+3rmKyck1jgxiRAFO1j5qufpDqXacw==
   dependencies:
     "@nuxt/kit" "npm:@nuxt/kit-edge@latest"
     upath "^2.0.1"
