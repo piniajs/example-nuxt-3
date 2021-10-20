@@ -5,9 +5,7 @@
 
   <header>
     <h1>Pinia</h1>
-    <p>
-      <img src="~/assets/icons/pinia.svg" /> The intuitive store for Vue
-    </p>
+    <p>The intuitive store for Vue</p>
   </header>
 
   <template v-if="route.path !== '/'">
