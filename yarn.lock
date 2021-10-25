@@ -511,10 +511,10 @@
     webpack-virtual-modules "^0.4.3"
     webpackbar "^5.0.0-3"
 
-"@pinia/nuxt@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.0.9.tgz#6bb9e087769cc4f91e297ce1a38ef5218bf7ed5d"
-  integrity sha512-cs/ut+sABrfXUmHo5Va7fSrPA2ySvKzs25JOfKW1+6eGheFNng45s4IwGmSp48dNczHuW3upYcOwe4mEuJBWhA==
+"@pinia/nuxt@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.1.0.tgz#51677d0fc392845824608c18d205b533950b9116"
+  integrity sha512-iEbC9RqEMmdHntijdXOx907H4+Aco8lOhPek6q6HNi+5CvdgEuVV+tNuFUg7NDdW3PIhP6MwtRNb4b8dtFhh7A==
   dependencies:
     "@nuxt/kit" "npm:@nuxt/kit-edge@latest"
     vue-demi "*"
@@ -912,10 +912,25 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.20.tgz#53746961f731a8ea666e3316271e944238dc31db"
   integrity sha512-FbpX+hD5BvXCQerEYO7jtAGHlhAkhTQ4KIV73kmLWNlawWhTiVuQxizgVb0BOkX5oG9cIRZ42EG++d/k/Efp0w==
 
+"@vueuse/core@^6.7.3":
+  version "6.7.3"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-6.7.3.tgz#1a827ee3be55a98c932f716467337a0826d54993"
+  integrity sha512-Cqvk/e4DbdfZlUmVRcxr4rkK5CMn6KqN7TLx2L1++F9HrvlD/FIET3KQ/W7+wHowhdKEjdOUCFJtyU0k65xH2g==
+  dependencies:
+    "@vueuse/shared" "6.7.3"
+    vue-demi "*"
+
 "@vueuse/head@^0.6.0":
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-0.6.0.tgz#5584b1f724327cfce941c42efec9e590f5799329"
   integrity sha512-fi7ZjkMpEAUtTT6iR5wgL2HkX1+3zbrmbpcwU//RgJIWEr5b42jk8E9yOheaC2dYAAHzelAllVpX0pDmhcTXuw==
+
+"@vueuse/shared@6.7.3":
+  version "6.7.3"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-6.7.3.tgz#92ed69b3e79e1a30936fc1f1d39a0107e8d522e0"
+  integrity sha512-6syKgXvdikcSEHJzF7iVyXMqe7y7C7pH35EhH70zQLPnLXH6op9OgD2u4Ro1zyxESRkotbFIsuQJghG5IzXbKA==
+  dependencies:
+    vue-demi "*"
 
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
@@ -3908,10 +3923,10 @@ pify@^5.0.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-5.0.0.tgz#1f5eca3f5e87ebec28cc6d54a0e4aaf00acc127f"
   integrity sha512-eW/gHNMlxdSP6dmG6uJip6FXN0EQBwm2clYYd8Wul42Cwu/DK8HEftzsapcNdYe2MfLiIwZqsDk2RDEsTE79hA==
 
-pinia@^2.0.0-rc.14:
-  version "2.0.0-rc.14"
-  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.0-rc.14.tgz#c5c004c60b56806f465cae1bacce3922cf3163ac"
-  integrity sha512-vM8vYMsFdFDK1ND6j4+f7TC4hKB8moAjyn9HcHKqdOf1bHN4fL5g9Mz/8t8U0pEqnUwR2AU8yxD0gr+uU18x3g==
+pinia@^2.0.0-rc.15:
+  version "2.0.0-rc.15"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.0-rc.15.tgz#8d13928d2a7c36e9bd412559e7f617142579a56e"
+  integrity sha512-bez+J7ozT30orYRe1bf5xwuIXf0lqz8v1s50Q0FHr3qcdKcHA3H7O3mkZBU5qIzxuPQ5pQWjJdNImjjxM4dpYQ==
   dependencies:
     "@vue/devtools-api" "^6.0.0-beta.19"
     vue-demi "*"
