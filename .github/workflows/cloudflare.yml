@@ -3,10 +3,12 @@ name: cloudflare
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      # Change to main one the workflow is fixed
+      - not-existant
+      # - main
+  # pull_request:
+  #   branches:
+  #     - main
 
 jobs:
   ci:
