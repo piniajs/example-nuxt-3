@@ -1,0 +1,21 @@
+name: test
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: cypress-io/github-action@v2
+        with:
+          # browser: chrome
+          headless: true
+          node-version: 16
+          # cache: 'yarn'
+          # env: PORT=4000
+          start: yarn run start
+
+      # - run: yarn install --frozen-lockfile
+      # - run: yarn run build

@@ -3,10 +3,12 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "test": "cypress run"
   },
   "devDependencies": {
     "@exampledev/new.css": "^1.1.3",
+    "cypress": "^8.7.0",
     "nuxt3": "^3.0.0-27248403.018302c"
   },
   "dependencies": {
