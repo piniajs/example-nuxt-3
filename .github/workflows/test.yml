@@ -12,10 +12,10 @@ jobs:
         with:
           # browser: chrome
           headless: true
-          node-version: 16
+          node-version: '16'
           # cache: 'yarn'
           # env: PORT=4000
+          build: yarn run build
           start: yarn run start
 
-      # - run: yarn install --frozen-lockfile
       # - run: yarn run build
