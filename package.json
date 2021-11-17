@@ -9,11 +9,11 @@
   "devDependencies": {
     "@exampledev/new.css": "^1.1.3",
     "cypress": "^9.0.0",
-    "nuxt3": "^3.0.0-27268729.5b8e10f"
+    "nuxt3": "^3.0.0-27286006.a08b435"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.1.2",
-    "@vueuse/core": "^6.8.0",
-    "pinia": "^2.0.2"
+    "@pinia/nuxt": "^0.1.5",
+    "@vueuse/core": "^6.9.1",
+    "pinia": "^2.0.3"
   }
 }
