@@ -1,7 +1,8 @@
 <template>
-  <Head lang="en-US">
+  <!-- TODO: add after https://github.com/nuxt/framework/issues/1909 -->
+  <!-- <Head lang="en-US">
     <Title>⚡️🍍 Pinia + Nuxt 3</Title>
-  </Head>
+  </Head>-->
 
   <header>
     <h1>Pinia</h1>
