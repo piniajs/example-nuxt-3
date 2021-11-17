@@ -1,6 +1,6 @@
 name: test
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   build-and-test:
@@ -13,11 +13,7 @@ jobs:
           node-version: 16
       - uses: cypress-io/github-action@v2
         with:
-          # browser: chrome
           headless: true
-          # cache: 'yarn'
           # env: PORT=4000
           build: yarn run build
           start: yarn run start
-
-      # - run: yarn run build
