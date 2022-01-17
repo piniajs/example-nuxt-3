@@ -8,8 +8,8 @@
   },
   "devDependencies": {
     "@exampledev/new.css": "^1.1.3",
-    "cypress": "^9.2.0",
-    "nuxt3": "^3.0.0-27356801.e9128f3"
+    "cypress": "^9.2.1",
+    "nuxt3": "^3.0.0-27369360.33ebb01"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.1.8",
