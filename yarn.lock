@@ -741,10 +741,10 @@
     vite-node "^0.10.0"
     vite-plugin-checker "^0.4.6"
 
-"@pinia/nuxt@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.1.8.tgz#457a87b0f39ae47a1306e08ab7d4d390b30b48c9"
-  integrity sha512-+M1GH/4XQdooOulPL7aYzli6UE1R5rWJtgcPhx2/97yYRLhKZvuIT33OauUCjYZ+tQVs8lyKfzt6S2agqzcmWg==
+"@pinia/nuxt@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.1.9.tgz#96bd971ff5e280d401d1b2be1510b6ae4600a510"
+  integrity sha512-5YmfBOxXHM5eA5pE4mq5opJnSmVYn2qYJ2ak01FrCww0esxfRLkmuu4emynu0Ar5eQ/DDz9wI3ukgRwAubXqmg==
   dependencies:
     vue-demi "*"
 
@@ -1061,13 +1061,13 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.33.tgz#69a8c99ceb37c1b031d5cc4aec2ff1dc77e1161e"
   integrity sha512-UBc1Pg1T3yZ97vsA2ueER0F6GbJebLHYlEi4ou1H5YL4KWvMOOWwpYo9/QpWq93wxKG6Wo13IY74Hcn/f7c7Bg==
 
-"@vueuse/core@^8.4.1":
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-8.4.1.tgz#68d06039bee53e08db5e9761aa06cb018e190535"
-  integrity sha512-YRM2+wZj/XWzch44sgFaRWtTGEZ8xgTsleaGy6cuULIU1q6o9Z/XHDHqofzNXrEqEhN6EtJqM4m8puURFO0nzg==
+"@vueuse/core@^8.4.2":
+  version "8.4.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-8.4.2.tgz#e5be73f40394150e6a1b6abd59e5adb7c6bb6c1f"
+  integrity sha512-dUVU96lii1ZdWoNJXauQNt+4QrHz1DKbuW+y6pDR2N10q7rGZJMDU7pQeMcC2XeosX7kMODfaBuqsF03NozzLg==
   dependencies:
-    "@vueuse/metadata" "8.4.1"
-    "@vueuse/shared" "8.4.1"
+    "@vueuse/metadata" "8.4.2"
+    "@vueuse/shared" "8.4.2"
     vue-demi "*"
 
 "@vueuse/head@^0.7.6":
@@ -1075,15 +1075,15 @@
   resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-0.7.6.tgz#39eb2aa593db6f02d10ba469b33d8cfbce038183"
   integrity sha512-cOWqCkT3WiF5oEpw+VVEWUJd9RLD5rc7DmnFp3cePsejp+t7686uKD9Z9ZU7Twb7R/BI8iexKTmXo9D/F3v6UA==
 
-"@vueuse/metadata@8.4.1":
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-8.4.1.tgz#933d971599fbb772769afd281fd2aefa09bb955e"
-  integrity sha512-OMwadiewrAHgJAgCh5zrbJMXySECB09cnEnIWRicvTWBiqBm14N1t464oeV1fhskRPEBsLSzxQmDoVBAqQh4rQ==
+"@vueuse/metadata@8.4.2":
+  version "8.4.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-8.4.2.tgz#b33e6b7bd5ca69e3f24ea41b149267118bcd566f"
+  integrity sha512-2BIj++7P0/I5dfMsEe8q7Kw0HqVAjVcyNOd9+G22/ILUC9TVLTeYOuJ1kwa1Gpr+0LWKHc6GqHiLWNL33+exoQ==
 
-"@vueuse/shared@8.4.1":
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-8.4.1.tgz#a6856fc04db1db74c4d3252cce5f16641313ca50"
-  integrity sha512-yzWNzvqaTGkc25fNsGkaF3pnMdXDax3EasYgPKlC4/eXSo0TqwG+xLz0Y8t6KN52x/kIHlpSwtry4LXfw7LSBA==
+"@vueuse/shared@8.4.2":
+  version "8.4.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-8.4.2.tgz#5900f06ff78bd8b6df4cbf48f8ca82dd6d9747d1"
+  integrity sha512-hILXMEjL8YQhj1LHN/HZ49UThyfk8irTjhele2nW+L3N55ElFUBGB/f4w0rg8EW+/suhqv7kJJPTZzvHCqxlIw==
   dependencies:
     vue-demi "*"
 
@@ -4450,10 +4450,10 @@ pify@^2.2.0, pify@^2.3.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha1-7RQaasBDqEnqWISY59yosVMw6Qw=
 
-pinia@^2.0.13:
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.13.tgz#6656fc290dae120a9f0cb2f5c520df400d41b8c5"
-  integrity sha512-B7rSqm1xNpwcPMnqns8/gVBfbbi7lWTByzS6aPZ4JOXSJD4Y531rZHDCoYWBwLyHY/8hWnXljgiXp6rRyrofcw==
+pinia@^2.0.14:
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.14.tgz#0837898c20291ebac982bbfca95c8d3c6099925f"
+  integrity sha512-0nPuZR4TetT/WcLN+feMSjWJku3SQU7dBbXC6uw+R6FLQJCsg+/0pzXyD82T1FmAYe0lsx+jnEDQ1BLgkRKlxA==
   dependencies:
     "@vue/devtools-api" "^6.1.4"
     vue-demi "*"
