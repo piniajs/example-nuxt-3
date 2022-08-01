@@ -442,31 +442,7 @@
     unimport "^0.1.6"
     untyped "^0.4.4"
 
-"@nuxt/kit@^3.0.0-rc.4":
-  version "3.0.0-rc.4"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0-rc.4.tgz#8aa3c26f1bb9f3e7bb78ad2cec33473e32ffccd0"
-  integrity sha512-ZBSeHFy3fPUx0equCtyP6eVUAZQWwRqTp2YnHSFqM5+yhN5aTGo8gBlfwttVBr4yhFBpGFRHhQj/iNPqrCeTnQ==
-  dependencies:
-    "@nuxt/schema" "^3.0.0-rc.4"
-    c12 "^0.2.7"
-    consola "^2.15.3"
-    defu "^6.0.0"
-    globby "^13.1.2"
-    hash-sum "^2.0.0"
-    ignore "^5.2.0"
-    jiti "^1.13.0"
-    knitwork "^0.1.2"
-    lodash.template "^4.5.0"
-    mlly "^0.5.2"
-    pathe "^0.3.0"
-    pkg-types "^0.3.2"
-    scule "^0.2.1"
-    semver "^7.3.7"
-    unctx "^1.1.4"
-    unimport "^0.2.7"
-    untyped "^0.4.4"
-
-"@nuxt/kit@^3.0.0-rc.6":
+"@nuxt/kit@3.0.0-rc.6", "@nuxt/kit@^3.0.0-rc.6":
   version "3.0.0-rc.6"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0-rc.6.tgz#b59c10639cb591bdc5a63164fb352b344230a065"
   integrity sha512-+lxSd6dSWlAzMXfGOPcY4856xnMF1Ck1rycFUZ+K2QYiDXphq/fiW2eMaWLVvqgPyL2Box2WzVDZJ6C5ceptcw==
@@ -490,7 +466,7 @@
     unimport "^0.4.5"
     untyped "^0.4.4"
 
-"@nuxt/schema@^3.0.0-rc.1", "@nuxt/schema@^3.0.0-rc.4":
+"@nuxt/schema@^3.0.0-rc.1":
   version "3.0.0-rc.4"
   resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.0.0-rc.4.tgz#d94005e1aca00349f1256cb827ee7478d50a1802"
   integrity sha512-5yjfKvPJ/NboevQYZLyO1SS9nJW6KHtdd7Ei61D19gYGtnN+aOpxOnUX08A1rZMb3G2Cw5JRxVeF9+AfBYefJg==
@@ -590,13 +566,13 @@
     vite-node "^0.18.1"
     vite-plugin-checker "^0.4.9"
 
-"@pinia/nuxt@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.3.0.tgz#3ee83b5562efb8a726b763054fa5e6e99b15e855"
-  integrity sha512-x/T8GAfpLAF/a5I06frgl7Aj+X9Ld3fvBhQ6xtinHsXivbrUSL1UNJof8JKEAZBwKX33CoCyeGWbXfOtpyODug==
+"@pinia/nuxt@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.3.1.tgz#30d9a3fee43c4ff485694ecad4b44fdfe064079e"
+  integrity sha512-JoDvTolUrJPfe9xEmvHz0jRqd3vYzuStqtt1k3SgwHChIWxxnlZ8hmU1RlXIh51RGL549LeXupSiKGydDIYc2A==
   dependencies:
-    "@nuxt/kit" "^3.0.0-rc.4"
-    pinia ">=2.0.14"
+    "@nuxt/kit" "3.0.0-rc.6"
+    pinia ">=2.0.17"
 
 "@rollup/plugin-alias@^3.1.9":
   version "3.1.9"
@@ -848,6 +824,11 @@
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.2.0.tgz#e3dc98a0cce8e87292745e2d24c9ee8c274a023b"
   integrity sha512-pF1G4wky+hkifDiZSWn8xfuLOJI1ZXtuambpBEYaf7Xaf6zC/pM29rvAGpd3qaGXnr4BAXU1Pxz/VfvBGwexGA==
+
+"@vue/devtools-api@^6.2.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.2.1.tgz#6f2948ff002ec46df01420dfeff91de16c5b4092"
+  integrity sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==
 
 "@vue/reactivity-transform@3.2.37":
   version "3.2.37"
@@ -3658,12 +3639,12 @@ pify@^2.2.0, pify@^2.3.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==
 
-pinia@>=2.0.14, pinia@^2.0.16:
-  version "2.0.16"
-  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.16.tgz#0105db595f5f792e17c04692e36807d8ea62f5cc"
-  integrity sha512-9/LMVO+/epny1NBfC77vnps4g3JRezxhhoF1xLUk8mZkUIxVnwfEAIRiAX8mYBTD/KCwZqnDMqXc8w3eU0FQGg==
+pinia@>=2.0.17, pinia@^2.0.17:
+  version "2.0.17"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.17.tgz#f925e5e4f73c15e16dfb4838176a9ca50752f26b"
+  integrity sha512-AtwLwEWQgIjofjgeFT+nxbnK5lT2QwQjaHNEDqpsi2AiCwf/NY78uWTeHUyEhiiJy8+sBmw0ujgQMoQbWiZDfA==
   dependencies:
-    "@vue/devtools-api" "^6.1.4"
+    "@vue/devtools-api" "^6.2.1"
     vue-demi "*"
 
 pkg-types@^0.3.2, pkg-types@^0.3.3:
