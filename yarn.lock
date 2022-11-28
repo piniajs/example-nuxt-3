@@ -539,7 +539,7 @@
     vite-plugin-checker "^0.5.1"
     vue-bundle-renderer "^1.0.0"
 
-"@pinia/nuxt@^0.4.3":
+"@pinia/nuxt@^0.4.6":
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.4.6.tgz#ce83714f700594187d8a29e8f4bdaf31abe0bef1"
   integrity sha512-HjrYEfLdFpmsjhicPJgL36jVhzHWukIQPFFHGTSF84Cplu+f2nY2XHKqe9ToHzE9rLee2RjLOwAzOnXa/I/u6A==
@@ -839,7 +839,7 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.45.tgz#a3fffa7489eafff38d984e23d0236e230c818bc2"
   integrity sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==
 
-"@vueuse/core@^9.5.0":
+"@vueuse/core@^9.6.0":
   version "9.6.0"
   resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-9.6.0.tgz#de1d4730849cdbe28a9ebcf6cad167a700919603"
   integrity sha512-qGUcjKQXHgN+jqXEgpeZGoxdCbIDCdVPz3QiF1uyecVGbMuM63o96I1GjYx5zskKgRI0FKSNsVWM7rwrRMTf6A==
@@ -1623,7 +1623,7 @@ cuint@^0.2.2:
   resolved "https://registry.yarnpkg.com/cuint/-/cuint-0.2.2.tgz#408086d409550c2631155619e9fa7bcadc3b991b"
   integrity sha512-d4ZVpCW31eWwCMe1YT3ur7mUDnTXbgwyzaL320DrcRT45rfjYxkt5QWLrmOJ+/UEAI2+fQgKe/fCjR8l4TpRgw==
 
-cypress@^11.0.1:
+cypress@^11.2.0:
   version "11.2.0"
   resolved "https://registry.yarnpkg.com/cypress/-/cypress-11.2.0.tgz#63edef8c387b687066c5493f6f0ad7b9ced4b2b7"
   integrity sha512-u61UGwtu7lpsNWLUma/FKNOsrjcI6wleNmda/TyKHe0dOBcVjbCPlp1N6uwFZ0doXev7f/91YDpU9bqDCFeBLA==
@@ -3411,7 +3411,7 @@ nuxi@3.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt@^3.0.0-rc.13:
+nuxt@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.0.0.tgz#0909e6566d79805f3a4ed6229573817cbde12e89"
   integrity sha512-RNlD78uv04ZiXWmlx9f1tnJfrqsYAWHU+4gbgOTQpIBmQzHWPWiox+fm/1m93iKfEd5sJi9TJUoXX5yBObVZYw==
@@ -3639,7 +3639,7 @@ pify@^2.2.0, pify@^2.3.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==
 
-pinia@>=2.0.27, pinia@^2.0.23:
+pinia@>=2.0.27, pinia@^2.0.27:
   version "2.0.27"
   resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.27.tgz#cf13a8dca2792a613c1d8bb8ef50707756e5a6ef"
   integrity sha512-nOnXP0OFeL8R4WjAHsterU+11vptda643gH02xKNtSCDPiRzVfRYodOLihLDoa0gL1KKuQKV+KOzEgdt3YvqEw==
