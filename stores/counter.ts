@@ -15,6 +15,11 @@ export const useCounter = defineStore('counter', {
   },
 
   actions: {
+    decrement(amount = 1) {
+      this.incrementedTimes++
+      this.n -= amount
+    },
+    
     increment(amount = 1) {
       this.incrementedTimes++
       this.n += amount

@@ -4,10 +4,10 @@ We recommend to look at the [documentation](https://v3.nuxtjs.org).
 
 ## Setup
 
-Make sure to install the dependencies
+Make sure to install the dependencies using this exact command
 
 ```bash
-yarn install
+npm i --save-exact
 ```
 
 ## Development
@@ -15,7 +15,7 @@ yarn install
 Start the development server on http://localhost:3000
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 ## Production
@@ -23,7 +23,7 @@ yarn dev
 Build the application for production:
 
 ```bash
-yarn build
+nom run build
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
