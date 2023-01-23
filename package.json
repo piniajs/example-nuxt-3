@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.6",
-    "@vueuse/core": "^9.10.0",
+    "@vueuse/core": "^9.11.1",
     "pinia": "^2.0.29"
   }
 }
