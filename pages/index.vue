@@ -1,11 +1,12 @@
 <template>
   <div>
-    <div style="margin: 1rem 0;">
+    <div style="margin: 1rem 0">
       <PiniaLogo />
     </div>
 
     <p>
-      This is an example store to test out devtools. Try one of the following with the devtools open:
+      This is an example store to test out devtools. Try one of the following
+      with the devtools open:
       <br />
     </p>
 
@@ -15,15 +16,19 @@
       <li>Use decrement to zero to see how action groups work</li>
       <li>
         Click
-        <b>Test Errors</b> and immediately after
-        <b>increment</b> the store
+        <b>Test Errors</b> and immediately after <b>increment</b> the store
       </li>
-      <li>While the dev server is running, try changing counter.changeMe, adding, and removing new state properties</li>
+      <li>
+        While the dev server is running, try changing counter.changeMe, adding,
+        and removing new state properties
+      </li>
     </ol>
 
     <h2>Counter Store</h2>
 
-    <p data-testid="counter-values">Counter: {{ counter.n }}. Double: {{ counter.double }}</p>
+    <p data-testid="counter-values">
+      Counter: {{ counter.n }}. Double: {{ counter.double }}
+    </p>
 
     <p>Increment the Store:</p>
 
@@ -38,7 +43,9 @@
           state.incrementedTimes++
         })
       "
-    >Direct patch</button>
+    >
+      Direct patch
+    </button>
 
     <p>Other actions:</p>
 
@@ -60,8 +67,7 @@
 </template>
 
 <script setup lang="ts">
-import { useCounter } from "~/stores/counter";
-import PiniaLogo from "~/components/PiniaLogo.vue";
+import PiniaLogo from '~/components/PiniaLogo.vue'
 
 const counter = useCounter()
 

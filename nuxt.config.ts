@@ -5,4 +5,12 @@ export default defineNuxtConfig({
     // pinia plugin
     '@pinia/nuxt',
   ],
+
+  imports: {
+    dirs: ['./stores'],
+  },
+
+  pinia: {
+    autoImports: ['defineStore', 'acceptHMRUpdate'],
+  },
 })
