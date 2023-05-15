@@ -1212,13 +1212,13 @@
     vite-plugin-checker "^0.5.6"
     vue-bundle-renderer "^1.0.3"
 
-"@pinia/nuxt@^0.4.9":
-  version "0.4.9"
-  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.4.9.tgz#de80f854cf10388523767f6080ce1cc6ea5b67e0"
-  integrity sha512-ojzUMHKrQ7ZFjhWqMYKYetcqHSfgtIhjc6Hxw4alfQaGTlFdj38Vpz8Ol36YvmNdSjLFTNWYAgxEWCvg6HcSSg==
+"@pinia/nuxt@^0.4.10":
+  version "0.4.10"
+  resolved "https://registry.yarnpkg.com/@pinia/nuxt/-/nuxt-0.4.10.tgz#b93f008f22053727cf69c496b516db81290b142f"
+  integrity sha512-/16Eac9B9BT+LnhGL2np3bO3DXYcIEjUIGmU9MzUu7y2exDYq1eOce4Yt+ZtLpb0hN0BBGNyP0ZWoHJ6KJIVfA==
   dependencies:
     "@nuxt/kit" "^3.0.0"
-    pinia ">=2.0.35"
+    pinia ">=2.0.36"
 
 "@rollup/plugin-alias@^5.0.0":
   version "5.0.0"
@@ -2383,10 +2383,10 @@ cuint@^0.2.2:
   resolved "https://registry.yarnpkg.com/cuint/-/cuint-0.2.2.tgz#408086d409550c2631155619e9fa7bcadc3b991b"
   integrity sha512-d4ZVpCW31eWwCMe1YT3ur7mUDnTXbgwyzaL320DrcRT45rfjYxkt5QWLrmOJ+/UEAI2+fQgKe/fCjR8l4TpRgw==
 
-cypress@^12.11.0:
-  version "12.11.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.11.0.tgz#b46dc6a1d0387f59a4b5c6a18cc03884fd61876e"
-  integrity sha512-TJE+CCWI26Hwr5Msb9GpQhFLubdYooW0fmlPwTsfiyxmngqc7+SZGLPeIkj2dTSSZSEtpQVzOzvcnzH0o8G7Vw==
+cypress@^12.12.0:
+  version "12.12.0"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-12.12.0.tgz#0da622a34c970d8699ca6562d8e905ed7ce33c77"
+  integrity sha512-UU5wFQ7SMVCR/hyKok/KmzG6fpZgBHHfrXcHzDmPHWrT+UUetxFzQgt7cxCszlwfozckzwkd22dxMwl/vNkWRw==
   dependencies:
     "@cypress/request" "^2.88.10"
     "@cypress/xvfb" "^1.2.4"
@@ -4577,10 +4577,10 @@ pify@^2.2.0, pify@^2.3.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==
 
-pinia@>=2.0.35, pinia@^2.0.35:
-  version "2.0.35"
-  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.35.tgz#aa2597038bb55ea14ad689f83065d2814ebb8c10"
-  integrity sha512-P1IKKQWhxGXiiZ3atOaNI75bYlFUbRxtJdhPLX059Z7+b9Z04rnTZdSY8Aph1LA+/4QEMAYHsTQ638Wfe+6K5g==
+pinia@>=2.0.36, pinia@^2.0.36:
+  version "2.0.36"
+  resolved "https://registry.yarnpkg.com/pinia/-/pinia-2.0.36.tgz#65130f3b94cc7fe25156308634010fab893dff24"
+  integrity sha512-4UKApwjlmJH+VuHKgA+zQMddcCb3ezYnyewQ9NVrsDqZ/j9dMv5+rh+1r48whKNdpFkZAWVxhBp5ewYaYX9JcQ==
   dependencies:
     "@vue/devtools-api" "^6.5.0"
     vue-demi "*"
