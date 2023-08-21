@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@exampledev/new.css": "^1.1.3",
-    "cypress": "^12.17.3",
+    "cypress": "^12.17.4",
     "nuxt": "^3.6.5"
   },
   "dependencies": {
