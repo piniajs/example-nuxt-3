@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import { storeToRefs } from 'pinia'
 import PiniaLogo from '~/components/PiniaLogo.vue'
 
 const counter = useCounter()
-const { q, doubleQ } = storeToRefs(useSetupCounterStore())
 
 // if (process.server) {
 //   counter.n = 20
