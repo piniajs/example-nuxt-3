@@ -1,3 +1,15 @@
+<script setup lang="ts">
+import { storeToRefs } from 'pinia'
+import PiniaLogo from '~/components/PiniaLogo.vue'
+
+const counter = useCounter()
+const { q, doubleQ } = storeToRefs(useSetupCounterStore())
+
+// if (process.server) {
+//   counter.n = 20
+// }
+</script>
+
 <template>
   <div>
     <div style="margin: 1rem 0">
@@ -65,16 +77,6 @@
     <pre>{{ counter.$state }}</pre>
   </div>
 </template>
-
-<script setup lang="ts">
-import PiniaLogo from '~/components/PiniaLogo.vue'
-
-const counter = useCounter()
-
-// if (process.server) {
-//   counter.n = 20
-// }
-</script>
 
 <style scoped>
 button {
