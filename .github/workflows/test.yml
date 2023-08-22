@@ -8,11 +8,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - run: corepack enable
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
-      - uses: cypress-io/github-action@v4
+          node-version: 18
+          cache: pnpm
+      - uses: cypress-io/github-action@v5
         with:
           # env: PORT=4000
-          build: yarn run build
-          start: yarn run start
+          build: pnpm run build
+          start: pnpm run start
