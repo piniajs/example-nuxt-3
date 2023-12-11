@@ -8,12 +8,12 @@
   },
   "devDependencies": {
     "@exampledev/new.css": "^1.1.3",
-    "cypress": "^13.6.0",
+    "cypress": "^13.6.1",
     "nuxt": "^3.8.2"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
-    "@vueuse/core": "^10.6.1",
+    "@vueuse/core": "^10.7.0",
     "pinia": "^2.1.7"
   }
 }
