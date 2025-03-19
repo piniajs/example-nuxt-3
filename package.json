@@ -1,7 +1,7 @@
 {
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@10.6.1",
+  "packageManager": "pnpm@10.6.5",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
@@ -9,14 +9,16 @@
     "test": "cypress run"
   },
   "devDependencies": {
-    "@exampledev/new.css": "^1.1.3",
-    "cypress": "^14.2.0",
-    "nuxt": "^3.11.2"
+    "cypress": "^14.2.0"
   },
   "dependencies": {
+    "@exampledev/new.css": "^1.1.3",
     "@pinia/nuxt": "^0.10.1",
     "@vueuse/core": "^13.0.0",
-    "pinia": "^3.0.1"
+    "nuxt": "^3.16.0",
+    "pinia": "^3.0.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
