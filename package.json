@@ -1,5 +1,7 @@
 {
   "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.6.1",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
@@ -12,8 +14,16 @@
     "nuxt": "^3.11.2"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.5.1",
-    "@vueuse/core": "^10.9.0",
-    "pinia": "^2.1.7"
+    "@pinia/nuxt": "^0.10.1",
+    "@vueuse/core": "^13.0.0",
+    "pinia": "^3.0.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "cypress",
+      "esbuild",
+      "vue-demi"
+    ]
   }
 }
