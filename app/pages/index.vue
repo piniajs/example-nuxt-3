@@ -2,9 +2,9 @@
 const counter = useCounter()
 
 // simulate data is set on the server
-if (import.meta.server) {
-  counter.n = 20
-}
+// if (import.meta.server) {
+//   counter.n = 20
+// }
 </script>
 
 <template>
