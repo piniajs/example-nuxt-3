@@ -7,12 +7,15 @@ export default defineNuxtConfig({
   ],
 
   imports: {
-    dirs: ['./stores'],
+    dirs: ['~/stores'],
   },
 
   pinia: {
-    autoImports: ['defineStore', 'acceptHMRUpdate'],
   },
 
-  compatibilityDate: '2025-03-19',
+   future: {
+    compatibilityVersion: 4,
+  },
+
+  compatibilityDate: '2025-06-04'
 })

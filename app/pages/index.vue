@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import PiniaLogo from '~/components/PiniaLogo.vue'
-
 const counter = useCounter()
 
-// if (process.server) {
-//   counter.n = 20
-// }
+// simulate data is set on the server
+if (import.meta.server) {
+  counter.n = 20
+}
 </script>
 
 <template>
