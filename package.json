@@ -1,7 +1,7 @@
 {
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@10.27.0",
+  "packageManager": "pnpm@10.28.0",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
@@ -9,7 +9,7 @@
     "test": "cypress run"
   },
   "devDependencies": {
-    "cypress": "^15.8.1"
+    "cypress": "^15.8.2"
   },
   "dependencies": {
     "@exampledev/new.css": "^1.1.3",
