@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: pnpm
-      - uses: cypress-io/github-action@v7.3.0
+      - uses: cypress-io/github-action@v7.4.0
         with:
           # env: PORT=4000
           build: pnpm run build
