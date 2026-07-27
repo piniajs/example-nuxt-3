@@ -31,8 +31,8 @@ importers:
         version: 5.2.0(@vue/compiler-sfc@3.5.40)(esbuild@0.28.0)(pinia@3.0.4(typescript@5.8.3)(vue@3.5.40(typescript@5.8.3)))(rolldown@1.2.0)(rollup@4.60.2)(vite@8.1.5(@types/node@22.15.29)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.40.0)(yaml@2.9.0))(vue@3.5.40(typescript@5.8.3))
     devDependencies:
       cypress:
-        specifier: ^15.18.1
-        version: 15.18.1
+        specifier: ^15.19.0
+        version: 15.19.0
 
 packages:
 
@@ -2048,8 +2048,8 @@ packages:
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
 
-  cypress@15.18.1:
-    resolution: {integrity: sha512-JtkTVtUE2lvLYgZCaug+Uai0H9IqsJirlBO49c87QwG0bJUGvAUVBz1EJve0b0oaYP244Ew9M0BkrHpcqkYxmw==}
+  cypress@15.19.0:
+    resolution: {integrity: sha512-kjy1u3SWlMRWS5qffH3U+bXx1PqPP7qwhIzEY3UtERcW2r/8zy5uk6uSwa75pYXJyYFVP1SO8mAn/avZUvUbfg==}
     engines: {node: ^20.1.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
 
@@ -6689,7 +6689,7 @@ snapshots:
 
   csstype@3.2.3: {}
 
-  cypress@15.18.1:
+  cypress@15.19.0:
     dependencies:
       '@cypress/request': 4.0.0
       '@cypress/xvfb': 1.2.4(supports-color@8.1.1)
