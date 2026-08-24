@@ -9,7 +9,7 @@
     "test": "cypress run"
   },
   "devDependencies": {
-    "cypress": "^15.20.1"
+    "cypress": "^15.21.0"
   },
   "dependencies": {
     "@exampledev/new.css": "^1.1.3",
